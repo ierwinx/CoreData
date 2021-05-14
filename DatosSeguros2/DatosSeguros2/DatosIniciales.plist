@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nombre</key>
+		<string>Mazda CX5</string>
+		<key>busqueda</key>
+		<string>Mazda</string>
+		<key>calificacion</key>
+		<integer>0</integer>
+		<key>nombreImagen</key>
+		<string>mazda</string>
+		<key>ultimaPrueba</key>
+		<date>2020-10-17T17:54:10Z</date>
+		<key>vecesProbado</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Ford Mustang</string>
+		<key>busqueda</key>
+		<string>Ford</string>
+		<key>calificacion</key>
+		<integer>0</integer>
+		<key>nombreImagen</key>
+		<string>ford</string>
+		<key>ultimaPrueba</key>
+		<date>2020-10-17T17:54:10Z</date>
+		<key>vecesProbado</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Honda Civic</string>
+		<key>busqueda</key>
+		<string>Honda</string>
+		<key>calificacion</key>
+		<integer>0</integer>
+		<key>nombreImagen</key>
+		<string>honda</string>
+		<key>ultimaPrueba</key>
+		<date>2020-10-17T17:54:10Z</date>
+		<key>vecesProbado</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

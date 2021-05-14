@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2A7050253DE4630006DE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A704F253DE4630006DE1B /* AppDelegate.swift */; };
+		AA2A7052253DE4630006DE1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7051253DE4630006DE1B /* SceneDelegate.swift */; };
+		AA2A7054253DE4630006DE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7053253DE4630006DE1B /* ViewController.swift */; };
+		AA2A7057253DE4630006DE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2A7055253DE4630006DE1B /* Main.storyboard */; };
+		AA2A705A253DE4630006DE1B /* DatosSeguros3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7058253DE4630006DE1B /* DatosSeguros3.xcdatamodeld */; };
+		AA2A705C253DE4660006DE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2A705B253DE4660006DE1B /* Assets.xcassets */; };
+		AA2A705F253DE4660006DE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2A705D253DE4660006DE1B /* LaunchScreen.storyboard */; };
+		AA2A7077253E00700006DE1B /* Persona+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7073253E00700006DE1B /* Persona+CoreDataClass.swift */; };
+		AA2A7078253E00700006DE1B /* Persona+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7074253E00700006DE1B /* Persona+CoreDataProperties.swift */; };
+		AA2A7079253E00700006DE1B /* Caminadas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7075253E00700006DE1B /* Caminadas+CoreDataClass.swift */; };
+		AA2A707A253E00700006DE1B /* Caminadas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A7076253E00700006DE1B /* Caminadas+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA2A704C253DE4630006DE1B /* DatosSeguros3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatosSeguros3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2A704F253DE4630006DE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA2A7051253DE4630006DE1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA2A7053253DE4630006DE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA2A7056253DE4630006DE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2A7059253DE4630006DE1B /* DatosSeguros3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatosSeguros3.xcdatamodel; sourceTree = "<group>"; };
+		AA2A705B253DE4660006DE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2A705E253DE4660006DE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA2A7060253DE4660006DE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2A7073253E00700006DE1B /* Persona+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA2A7074253E00700006DE1B /* Persona+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AA2A7075253E00700006DE1B /* Caminadas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Caminadas+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA2A7076253E00700006DE1B /* Caminadas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Caminadas+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2A7049253DE4630006DE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2A7043253DE4630006DE1B = {
+			isa = PBXGroup;
+			children = (
+				AA2A704E253DE4630006DE1B /* DatosSeguros3 */,
+				AA2A704D253DE4630006DE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2A704D253DE4630006DE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A704C253DE4630006DE1B /* DatosSeguros3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2A704E253DE4630006DE1B /* DatosSeguros3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A704F253DE4630006DE1B /* AppDelegate.swift */,
+				AA2A7051253DE4630006DE1B /* SceneDelegate.swift */,
+				AA2A707C253E051F0006DE1B /* Model */,
+				AA2A706E253DFDD00006DE1B /* View */,
+				AA2A707D253E053B0006DE1B /* Controller */,
+				AA2A705B253DE4660006DE1B /* Assets.xcassets */,
+				AA2A7060253DE4660006DE1B /* Info.plist */,
+				AA2A7058253DE4630006DE1B /* DatosSeguros3.xcdatamodeld */,
+			);
+			path = DatosSeguros3;
+			sourceTree = "<group>";
+		};
+		AA2A706E253DFDD00006DE1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A7055253DE4630006DE1B /* Main.storyboard */,
+				AA2A705D253DE4660006DE1B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA2A707C253E051F0006DE1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A7073253E00700006DE1B /* Persona+CoreDataClass.swift */,
+				AA2A7074253E00700006DE1B /* Persona+CoreDataProperties.swift */,
+				AA2A7075253E00700006DE1B /* Caminadas+CoreDataClass.swift */,
+				AA2A7076253E00700006DE1B /* Caminadas+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA2A707D253E053B0006DE1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A7053253DE4630006DE1B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2A704B253DE4630006DE1B /* DatosSeguros3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2A7063253DE4660006DE1B /* Build configuration list for PBXNativeTarget "DatosSeguros3" */;
+			buildPhases = (
+				AA2A7048253DE4630006DE1B /* Sources */,
+				AA2A7049253DE4630006DE1B /* Frameworks */,
+				AA2A704A253DE4630006DE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatosSeguros3;
+			productName = DatosSeguros3;
+			productReference = AA2A704C253DE4630006DE1B /* DatosSeguros3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2A7044253DE4630006DE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Erwin;
+				TargetAttributes = {
+					AA2A704B253DE4630006DE1B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AA2A7047253DE4630006DE1B /* Build configuration list for PBXProject "DatosSeguros3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2A7043253DE4630006DE1B;
+			productRefGroup = AA2A704D253DE4630006DE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2A704B253DE4630006DE1B /* DatosSeguros3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2A704A253DE4630006DE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2A705F253DE4660006DE1B /* LaunchScreen.storyboard in Resources */,
+				AA2A705C253DE4660006DE1B /* Assets.xcassets in Resources */,
+				AA2A7057253DE4630006DE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2A7048253DE4630006DE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2A705A253DE4630006DE1B /* DatosSeguros3.xcdatamodeld in Sources */,
+				AA2A7054253DE4630006DE1B /* ViewController.swift in Sources */,
+				AA2A7078253E00700006DE1B /* Persona+CoreDataProperties.swift in Sources */,
+				AA2A7050253DE4630006DE1B /* AppDelegate.swift in Sources */,
+				AA2A7079253E00700006DE1B /* Caminadas+CoreDataClass.swift in Sources */,
+				AA2A707A253E00700006DE1B /* Caminadas+CoreDataProperties.swift in Sources */,
+				AA2A7077253E00700006DE1B /* Persona+CoreDataClass.swift in Sources */,
+				AA2A7052253DE4630006DE1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA2A7055253DE4630006DE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2A7056253DE4630006DE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA2A705D253DE4660006DE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2A705E253DE4660006DE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2A7061253DE4660006DE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA2A7062253DE4660006DE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2A7064253DE4660006DE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5933M745D6;
+				INFOPLIST_FILE = DatosSeguros3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bancoazteca.DatosSeguros3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2A7065253DE4660006DE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5933M745D6;
+				INFOPLIST_FILE = DatosSeguros3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bancoazteca.DatosSeguros3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2A7047253DE4630006DE1B /* Build configuration list for PBXProject "DatosSeguros3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2A7061253DE4660006DE1B /* Debug */,
+				AA2A7062253DE4660006DE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2A7063253DE4660006DE1B /* Build configuration list for PBXNativeTarget "DatosSeguros3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2A7064253DE4660006DE1B /* Debug */,
+				AA2A7065253DE4660006DE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA2A7058253DE4630006DE1B /* DatosSeguros3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA2A7059253DE4630006DE1B /* DatosSeguros3.xcdatamodel */,
+			);
+			currentVersion = AA2A7059253DE4630006DE1B /* DatosSeguros3.xcdatamodel */;
+			path = DatosSeguros3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA2A7044253DE4630006DE1B /* Project object */;
+}

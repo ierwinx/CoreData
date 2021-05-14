@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4B07A02533973500F93007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B079F2533973500F93007 /* AppDelegate.swift */; };
+		AA4B07A22533973500F93007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B07A12533973500F93007 /* SceneDelegate.swift */; };
+		AA4B07A42533973500F93007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B07A32533973500F93007 /* ViewController.swift */; };
+		AA4B07A72533973500F93007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4B07A52533973500F93007 /* Main.storyboard */; };
+		AA4B07AA2533973500F93007 /* DatosSeguros2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA4B07A82533973500F93007 /* DatosSeguros2.xcdatamodeld */; };
+		AA4B07AC2533973700F93007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4B07AB2533973700F93007 /* Assets.xcassets */; };
+		AA4B07AF2533973700F93007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4B07AD2533973700F93007 /* LaunchScreen.storyboard */; };
+		AA85EEE2253B61FD00033F88 /* DatosIniciales.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA85EEE1253B61FD00033F88 /* DatosIniciales.plist */; };
+		AA85EEEA253B795300033F88 /* Automivil+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85EEE8253B795300033F88 /* Automivil+CoreDataClass.swift */; };
+		AA85EEEB253B795300033F88 /* Automivil+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85EEE9253B795300033F88 /* Automivil+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA4B079C2533973500F93007 /* DatosSeguros2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatosSeguros2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4B079F2533973500F93007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA4B07A12533973500F93007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA4B07A32533973500F93007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA4B07A62533973500F93007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4B07A92533973500F93007 /* DatosSeguros2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatosSeguros2.xcdatamodel; sourceTree = "<group>"; };
+		AA4B07AB2533973700F93007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4B07AE2533973700F93007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4B07B02533973700F93007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA85EEE1253B61FD00033F88 /* DatosIniciales.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DatosIniciales.plist; sourceTree = "<group>"; };
+		AA85EEE8253B795300033F88 /* Automivil+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Automivil+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA85EEE9253B795300033F88 /* Automivil+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Automivil+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4B07992533973500F93007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4B07932533973500F93007 = {
+			isa = PBXGroup;
+			children = (
+				AA4B079E2533973500F93007 /* DatosSeguros2 */,
+				AA4B079D2533973500F93007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4B079D2533973500F93007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B079C2533973500F93007 /* DatosSeguros2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4B079E2533973500F93007 /* DatosSeguros2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA85EEE7253B685700033F88 /* Utils */,
+				AA85EEE6253B684700033F88 /* Main */,
+				AA85EEE1253B61FD00033F88 /* DatosIniciales.plist */,
+				AA4B07A82533973500F93007 /* DatosSeguros2.xcdatamodeld */,
+				AA4B07B02533973700F93007 /* Info.plist */,
+			);
+			path = DatosSeguros2;
+			sourceTree = "<group>";
+		};
+		AA7105E0253CCD370012DBDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B07A32533973500F93007 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA85EEE3253B681400033F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA85EEE8253B795300033F88 /* Automivil+CoreDataClass.swift */,
+				AA85EEE9253B795300033F88 /* Automivil+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA85EEE4253B681B00033F88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B07AD2533973700F93007 /* LaunchScreen.storyboard */,
+				AA4B07A52533973500F93007 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA85EEE6253B684700033F88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA85EEE3253B681400033F88 /* Model */,
+				AA85EEE4253B681B00033F88 /* View */,
+				AA7105E0253CCD370012DBDF /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA85EEE7253B685700033F88 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B079F2533973500F93007 /* AppDelegate.swift */,
+				AA4B07A12533973500F93007 /* SceneDelegate.swift */,
+				AA4B07AB2533973700F93007 /* Assets.xcassets */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4B079B2533973500F93007 /* DatosSeguros2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4B07B32533973700F93007 /* Build configuration list for PBXNativeTarget "DatosSeguros2" */;
+			buildPhases = (
+				AA4B07982533973500F93007 /* Sources */,
+				AA4B07992533973500F93007 /* Frameworks */,
+				AA4B079A2533973500F93007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatosSeguros2;
+			productName = DatosSeguros2;
+			productReference = AA4B079C2533973500F93007 /* DatosSeguros2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4B07942533973500F93007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Bugsoft;
+				TargetAttributes = {
+					AA4B079B2533973500F93007 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AA4B07972533973500F93007 /* Build configuration list for PBXProject "DatosSeguros2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4B07932533973500F93007;
+			productRefGroup = AA4B079D2533973500F93007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4B079B2533973500F93007 /* DatosSeguros2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4B079A2533973500F93007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4B07AF2533973700F93007 /* LaunchScreen.storyboard in Resources */,
+				AA4B07AC2533973700F93007 /* Assets.xcassets in Resources */,
+				AA85EEE2253B61FD00033F88 /* DatosIniciales.plist in Resources */,
+				AA4B07A72533973500F93007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4B07982533973500F93007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4B07A42533973500F93007 /* ViewController.swift in Sources */,
+				AA4B07A02533973500F93007 /* AppDelegate.swift in Sources */,
+				AA4B07A22533973500F93007 /* SceneDelegate.swift in Sources */,
+				AA4B07AA2533973500F93007 /* DatosSeguros2.xcdatamodeld in Sources */,
+				AA85EEEB253B795300033F88 /* Automivil+CoreDataProperties.swift in Sources */,
+				AA85EEEA253B795300033F88 /* Automivil+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA4B07A52533973500F93007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4B07A62533973500F93007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4B07AD2533973700F93007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4B07AE2533973700F93007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4B07B12533973700F93007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA4B07B22533973700F93007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4B07B42533973700F93007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPTHP2V2G;
+				INFOPLIST_FILE = DatosSeguros2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugsoft.DatosSeguros2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4B07B52533973700F93007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPTHP2V2G;
+				INFOPLIST_FILE = DatosSeguros2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugsoft.DatosSeguros2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4B07972533973500F93007 /* Build configuration list for PBXProject "DatosSeguros2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4B07B12533973700F93007 /* Debug */,
+				AA4B07B22533973700F93007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4B07B32533973700F93007 /* Build configuration list for PBXNativeTarget "DatosSeguros2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4B07B42533973700F93007 /* Debug */,
+				AA4B07B52533973700F93007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA4B07A82533973500F93007 /* DatosSeguros2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA4B07A92533973500F93007 /* DatosSeguros2.xcdatamodel */,
+			);
+			currentVersion = AA4B07A92533973500F93007 /* DatosSeguros2.xcdatamodel */;
+			path = DatosSeguros2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA4B07942533973500F93007 /* Project object */;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DatosSeguros2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o05-XV-MOg">
+                                <rect key="frame" x="20" y="44" width="374" height="191"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="191" id="Sth-Us-kDE"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-g3-Pd6">
+                                <rect key="frame" x="20" y="265" width="374" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4hs-F3-2lV"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Honda"/>
+                                    <segment title="Ford"/>
+                                    <segment title="Mazda"/>
+                                </segments>
+                                <connections>
+                                    <action selector="tiposAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="axg-WB-UMh"/>
+                                </connections>
+                            </segmentedControl>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fnn-yV-Cf5">
+                                <rect key="frame" x="20" y="330" width="374" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Modelo Automovil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkN-0H-hBv">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label calificacion: 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4c-JG-EUZ">
+                                        <rect key="frame" x="0.0" y="30.5" width="374" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="veces probado: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kR7-3C-spu">
+                                        <rect key="frame" x="0.0" y="61" width="374" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ultima vez probado 23/10/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgZ-gB-k5E">
+                                        <rect key="frame" x="0.0" y="91.5" width="374" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIL-4D-DD0">
+                                <rect key="frame" x="20" y="462" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3EB-gH-3fG"/>
+                                </constraints>
+                                <state key="normal" title="Probar"/>
+                                <connections>
+                                    <action selector="probarAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UfC-Kp-sS5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-ZF-PPl">
+                                <rect key="frame" x="20" y="522" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DFV-Cf-udV"/>
+                                </constraints>
+                                <state key="normal" title="Calificar"/>
+                                <connections>
+                                    <action selector="calificarAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A6i-jV-oty"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fnn-yV-Cf5" secondAttribute="trailing" constant="20" id="0Sb-rX-2tg"/>
+                            <constraint firstItem="fFF-g3-Pd6" firstAttribute="top" secondItem="o05-XV-MOg" secondAttribute="bottom" constant="30" id="1BK-tc-qHp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nIL-4D-DD0" secondAttribute="trailing" constant="20" id="4bU-Ca-fvd"/>
+                            <constraint firstItem="fFF-g3-Pd6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="62y-OY-0BE"/>
+                            <constraint firstItem="Fnn-yV-Cf5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="A8i-Cr-wVy"/>
+                            <constraint firstItem="3AT-ZF-PPl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="C5o-ep-w0G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o05-XV-MOg" secondAttribute="trailing" constant="20" id="Cbm-KH-0r5"/>
+                            <constraint firstItem="nIL-4D-DD0" firstAttribute="top" secondItem="Fnn-yV-Cf5" secondAttribute="bottom" constant="20" id="Jp9-A5-L7f"/>
+                            <constraint firstItem="Fnn-yV-Cf5" firstAttribute="top" secondItem="fFF-g3-Pd6" secondAttribute="bottom" constant="20" id="T2K-XI-TZQ"/>
+                            <constraint firstItem="o05-XV-MOg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UId-5X-Zcd"/>
+                            <constraint firstItem="nIL-4D-DD0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VBx-pn-oz6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fFF-g3-Pd6" secondAttribute="trailing" constant="20" id="WHD-jQ-bwB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3AT-ZF-PPl" secondAttribute="trailing" constant="20" id="Ys1-c6-jaO"/>
+                            <constraint firstItem="o05-XV-MOg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oHH-Vd-OaH"/>
+                            <constraint firstItem="o05-XV-MOg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rhW-1R-xbt"/>
+                            <constraint firstItem="3AT-ZF-PPl" firstAttribute="top" secondItem="nIL-4D-DD0" secondAttribute="bottom" constant="20" id="xAX-AY-WL0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="calificacionLabel" destination="x4c-JG-EUZ" id="BPQ-Yz-hyK"/>
+                        <outlet property="fechaLabel" destination="PgZ-gB-k5E" id="eTS-eq-RdV"/>
+                        <outlet property="imagen" destination="o05-XV-MOg" id="zLT-ff-Kcs"/>
+                        <outlet property="modeloLabel" destination="QkN-0H-hBv" id="kq9-zN-SwH"/>
+                        <outlet property="tipos" destination="fFF-g3-Pd6" id="r2f-jZ-VuV"/>
+                        <outlet property="totalLabel" destination="kR7-3C-spu" id="3Jr-3X-fDk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
